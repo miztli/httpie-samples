@@ -1,0 +1,24 @@
+{
+  "configuracion": {
+    "preguntas_por_pantalla": 2,
+    "secuencia_de_preguntas": "seccion_nivel",
+    "navegacion": "avanzar_regresar",
+    "tiempo_limite": 5 ,
+    "calculo_calificacion": "global",
+    "porcentaje_minimo_aprobacion": 80,
+    "responder_todas_preguntas": true,
+    "mostrar_calificacion_al_terminar": false,
+    "mostrar_detalle_por_pregunta_al_terminar": false
+  },
+  "introduccion": {
+    "descripcion": "Examen para evaluar la capacidad de retención de una persona",
+    "mostrar_introduccion_al_inicio": true,
+    "ubicacion_archivo": "/tmp/files/test.jpeg"
+  },
+  "secciones": [
+    "5becb74ec327690e771ccad1",
+    "5becb74ec327690e771ccad2",
+    "5becb74ec327690e771ccad3",
+    "5becb74ec327690e771ccad4"
+  ]
+}

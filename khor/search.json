@@ -1,0 +1,4 @@
+[
+  { "name": "apellido_paterno", "value": "melgoza", "origen": { "servicio": "administracion", "fuente": "usuario" } },
+  { "name": "estado", "value": "México",  "origen": { "servicio": "administracion", "fuente": "usuario" } }
+]
