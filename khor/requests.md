@@ -1,6 +1,7 @@
 ## administracion
 
-### login
+#### login (POST json)
+http POST :8091/api/v1/administracion/login email=soporte@grupohuman.co password=
 
 ---
 
