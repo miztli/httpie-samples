@@ -16,4 +16,7 @@ http POST :8091/api/v1/administracion/login email=soporte@grupohuman.co password
 ### roles
 ##### GET roles
 
-http :8091/api/v1/administracion/roles permisos==tru
+http :8091/api/v1/administracion/roles page==2 size==3 sort==id order==desc
+http :8091/api/v1/administracion/roles permisos==true catalogo==true
+http :8091/api/v1/administracion/roles catalogo==true
+http :8091/api/v1/administracion/roles catalogo==true estatus==true
