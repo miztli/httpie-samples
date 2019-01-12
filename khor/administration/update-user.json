@@ -1,0 +1,15 @@
+{
+  "id":54,
+  "nombre":"",
+  "adicionales":"{\"campo_prueba\":\"prueba\"}",
+  "apellido_paterno":"mendivil",
+  "correo":"juan@hotmail.com",
+  "edad":40,
+  "sucursal_id":1,
+  "tipo_persona_id":1,
+  "perfil_base_id":1,
+  "prefijo":"EMP",
+  "digito":1,
+  "area_id":1,
+  "sucursales_de_acceso":"1,2,3,4"
+}

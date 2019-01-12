@@ -11,6 +11,9 @@ http :8091/api/v1/administracion/usuarios ids==1,49,53,48
 ##### PATCH usuarios
 http PATCH :8091/api/v1/administracion/usuarios < patch-user.json
 
+##### PUT usuarios
+http PUT :8091/api/v1/administracion/usuarios < update-user.json
+
 ##### POST login
 http POST :8091/api/v1/administracion/login email=soporte@grupohuman.co password=
 
