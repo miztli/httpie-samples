@@ -33,3 +33,7 @@ http POST :8091/api/v1/administracion/roles < create-rol.json
 ##### GET permisos
 http :8091/api/v1/administracion/permisos rol_id==1 permiso==ADMIN page==1 size==5
 http :8091/api/v1/administracion/permisos/1
+
+##### GET idiomas
+http :8091/api/v1/administracion/idiomas catalogo==true
+
