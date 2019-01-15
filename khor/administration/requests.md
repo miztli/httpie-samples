@@ -17,6 +17,9 @@ http PUT :8091/api/v1/administracion/usuarios < update-user.json
 ##### POST login
 http POST :8091/api/v1/administracion/login email=soporte@grupohuman.co password=
 
+##### DELTE usuarios
+http DELETE :8091/api/v1/administracion/usuarios/54 
+
 ### roles
 ##### GET roles
 
