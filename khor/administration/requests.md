@@ -8,6 +8,10 @@ http :8091/api/v1/administracion/usuarios nombre='miztlii melgoza' email=='dark'
 http :8091/api/v1/administracion/usuarios/54 roles==true
 http :8091/api/v1/administracion/usuarios ids==1,49,53,48
 
+##### perfiles base (POST file)
+Carga de usuarios con archivo excel
+http -f POST :8091/api/v1/administracion/usuarios/carga archivo@template_carga.xlsx
+
 ##### PATCH usuarios
 http PATCH :8091/api/v1/administracion/usuarios < patch-user.json
 
