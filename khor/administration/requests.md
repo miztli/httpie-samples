@@ -8,6 +8,9 @@ http :8091/api/v1/administracion/usuarios nombre='miztlii melgoza' email=='dark'
 http :8091/api/v1/administracion/usuarios/54 roles==true
 http :8091/api/v1/administracion/usuarios ids==1,49,53,48
 
+##### POST usuarios
+http POST :8091/api/v1/administracion/usuarios < create-user.json
+
 ##### perfiles base (POST file)
 Carga de usuarios con archivo excel
 http -f POST :8091/api/v1/administracion/usuarios/carga archivo@plantilla_carga_expediente.xlsx
@@ -32,6 +35,9 @@ http :8091/api/v1/administracion/roles permisos==true catalogo==true
 http :8091/api/v1/administracion/roles catalogo==true
 http :8091/api/v1/administracion/roles catalogo==true estatus==true
 http :8091/api/v1/administracion/roles/1
+
+##### PATCH roles
+http PATCH :8091/api/v1/administracion/roles < patch-rol.json
 
 ##### POST roles
 http POST :8091/api/v1/administracion/roles < create-rol.json

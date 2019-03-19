@@ -1,0 +1,7 @@
+{
+  "accion": "actualiza-campos",
+  "id":20,
+  "nombre": "testrole",
+  "descripcion": "test description",
+  "estatus": true
+}
