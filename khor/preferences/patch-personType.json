@@ -1,0 +1,9 @@
+{
+  "borrado":false,
+  "clave_autogenerada":true,
+  "digito":1,
+  "es_empleado":true,
+  "id":2,
+  "prefijo":"EMP",
+  "tipo_persona":"Default_patched"
+}

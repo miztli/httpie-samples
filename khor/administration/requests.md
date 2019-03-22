@@ -8,6 +8,9 @@ http :8091/api/v1/administracion/usuarios nombre='miztlii melgoza' email=='dark'
 http :8091/api/v1/administracion/usuarios/54 roles==true
 http :8091/api/v1/administracion/usuarios ids==1,49,53,48
 
+##### GET usuarios count by person type id 
+http :8091/api/v1/administracion/usuarios/total-tipo-persona id==1
+
 ##### POST usuarios
 http POST :8091/api/v1/administracion/usuarios < create-user.json
 
